@@ -11,4 +11,4 @@ int result = input1 / input2;
 ```
 
 kindly handle java.util.InputMismatchException, ArithmeticException and DenominatorIsZeroException.
-DenominatorIsZeroException is thrown when input2 is 0.
+DenominatorIsZeroException is thrown when input2 is 0 and will print a message "Input2 can not be zero".
