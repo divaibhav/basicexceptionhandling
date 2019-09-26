@@ -1,6 +1,5 @@
 package com.vaibhav.basicexception;
 
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -23,7 +22,9 @@ public class BasicExceptionHandling {
             System.out.println("please enter integer");
         }
         finally {
+            //closing Scanner class
             sc.close();
+            // printing result
             System.out.println(result);
         }
     }
