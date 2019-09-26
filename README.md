@@ -10,4 +10,4 @@ And print the result on the output screen.
 int result = input1 / input2;
 ```
 
-kindly handle InputMisMatchException and ArithmeticException.
+kindly handle InputMismatchException and ArithmeticException.
